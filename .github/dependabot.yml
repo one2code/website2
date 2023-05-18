@@ -2,7 +2,7 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     # Files stored in root directory
-    directory: "/"
+    directory: "/github-actions/trigger-schedule/github-data/package.json"
     schedule:
       interval: "daily"
 
