@@ -6,12 +6,6 @@ updates:
     schedule:
       interval: "daily"
 
-  - package-ecosystem: "docker"
-    # Files stored in root directory
-    directory: "/"
-    schedule:
-      interval: "daily"
-
   - package-ecosystem: "github-actions"
     # Workflow files stored in the
     # default location of `.github`
